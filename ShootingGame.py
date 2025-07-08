@@ -164,11 +164,11 @@ def restart(start_time, score):
 
         # Back to main screen
         if keys[pygame.K_ESCAPE]:
-            main()
+            shooting_game()
 
         if mouse_click[0]:
             if back_button.collidepoint(mouse_pos):
-                main()
+                shooting_game()
 
         pygame.display.flip()
 
